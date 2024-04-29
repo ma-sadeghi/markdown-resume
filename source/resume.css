@@ -128,6 +128,10 @@ span.title {
         /* Avoid breaking right after h3 */
     }
 
+    li {
+        break-inside: avoid;
+    }
+
     h3~p,
     h3~ul,
     h3~ol,
