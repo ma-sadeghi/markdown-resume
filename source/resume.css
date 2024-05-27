@@ -163,3 +163,19 @@ span.title {
         /* Allow breaks before a new h3, overriding previous rules */
     }
 }
+
+@page {
+    /* top, right, bottom, left */
+    margin: 0.5in 0.7in;
+}
+
+/* @page :first {
+    margin-top: 0.65in;
+} */
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
