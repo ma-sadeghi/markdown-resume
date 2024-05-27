@@ -14,6 +14,12 @@
   <a href="https://ma-sadeghi.github.io"><i class="fas fa-home"></i> Homepage</a>
 </span>
 
+## Summary
+
+- PhD in Chemical Engineering with a focus on modeling, simulation, and data analytics.
+- 8+ years of experience in modeling & simulation, machine learning, and software development.
+- Strong project management skills with track record of leading and contributing to cross-functional teams.
+
 ## Relevant Experience
 
 ### Research Scientist <time> 2024 – Present </time>
