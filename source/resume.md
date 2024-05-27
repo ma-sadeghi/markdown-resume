@@ -357,3 +357,5 @@
 <p class="center"><em>Last updated: 2024-04-16</em></p>
 
 <!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
+
+<script src="resume.js" defer></script>
