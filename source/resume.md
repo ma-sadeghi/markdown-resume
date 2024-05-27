@@ -86,6 +86,20 @@
 - **Machine Learning Techniques:** Deep learning, convolutional neural networks, autoencoders, and physics-informed neural networks. Expert in feature engineering and hyperparameter tuning.
 - **Engineering & Simulation:** Deep understanding of thermodynamics, fluid mechanics, and reaction kinetics. Experienced with simulation software including AutoCAD, COMSOL Multiphysics, and Aspen HYSYS.
 
+### Soft Skills
+
+- **Project Management**
+  - Led the development of popular open-source libraries, managing a team of over 10 developers and successfully delivering major releases.
+  - Managed multiple cross-functional projects concurrently, consistently meeting deadlines and milestones.
+  - Supervised and mentored undergrad/grad students, leading to successful outcomes, e.g., publications.
+- **Community Engagement**
+  - Actively engaged with the user community to address issues and feature requests for various open-source projects, significantly growing user base and satisfaction.
+  - Led workshops, tutorials, and coding clubs to promote open-source development and foster collaboration.
+- **Technical Communication**
+  - Secured ongoing funding for the development of OpenPNM and PoreSpy through effective communication with non-technical stakeholders and funding agencies.
+  - Authored and co-authored over 20 peer-reviewed journal articles and conference papers.
+  - Presented research findings at more than 20 international conferences and workshops.
+
 ## Open-Source Software
 
 ### [OpenPNM](https://github.com/PMEAL/OpenPNM) (420+ stars, 400+ citations)
