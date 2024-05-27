@@ -116,6 +116,12 @@ span.title {
 .center {
     text-align: center;
 }
+
+.footnote {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
 .fade-rule {
     height: 1px;
     background-color: #E6E6E6;
