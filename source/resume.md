@@ -24,67 +24,94 @@
 
 ### Research Scientist <time> 2024 – Present </time>
 
-<location> Computational Materials Engineering, CanmetMATERIALS – Natural Resources Canada </location>
+<location> Computational Materials Engineering, [CanmetMATERIALS](https://natural-resources.canada.ca/research-centres-and-labs/canmetmaterials/22096) – Natural Resources Canada </location>
 
-- Developing machine learning (ML) models to predict Li-ion battery degradation from electrochemical impedance spectroscopy (EIS) measurements. (NumPyro, PyTorch, SciPy Stack)
-- Developing automated battery cycling setup with ML in the loop for optimal generation of data points to maximally inform the ML model.
+- Developed a long short term memory (LSTM) time series model to predict Li-ion battery degradation from impedance spectroscopy (EIS) measurements. (NumPyro, PyTorch)
+- Designed an active learning end-to-end battery cycling workflow for automated data acquisition, analysis, and model retraining using Bayesian optimization. (NumPyro, JAX)
+- Developed a Python interface for automated control and data acquisition from [BioLogic potentiostats](https://www.biologic.net/potentiostat-galvanostat).
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Postdoctoral Fellow <time> 2023 – 2024 </time>
 
-<location> Department of Materials Science and Engineering, University of Toronto </location>
+<location> [Department of Materials Science and Engineering](https://mse.utoronto.ca), University of Toronto </location>
 
-- Developed AutoEIS: a tool for automated analysis of electrochemical impedance spectroscopy data using genetic algorithms and Bayesian inference. (NumPyro, Julia)
+- Developed AutoEIS, a Python package for automated analysis of EIS data using genetic algorithms and Bayesian inference. (NumPyro, Julia, JAX)
+- Designed, implemented and deployed an EIS processing and visualization dashboard, improving processing efficiency and enabling real-time insights. (Streamlit, Nginx)
+- Designed, implemented and deployed a parallelized workflow to collect, process and analyze large-scale EIS datasets on Compute Canada HPC clusters. (SLURM, Shell, [MPIRE](https://github.com/sybrenjansen/mpire))
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Postdoctoral Fellow <time> 2019 – 2023 </time>
 
-<location> Department of Chemical Engineering, University of Waterloo </location>
+<location> [Department of Chemical Engineering](https://uwaterloo.ca/chemical-engineering), University of Waterloo </location>
 
-- Developed a physics-informed convolutional neural network to compute the tortuosity of voxel images, up to 1000x faster than physics-based solvers.
-- Implemented a convolutional autoencoder to simulate Li-ion battery discharge, 10x faster than physics solvers, for rapid screening of electrode microstructures.
-- Developed high-fidelity physics-based digital twins of various battery systems to maximize their performance.
+- Developed a physics-informed convolutional neural network (CNN) to compute the tortuosity of voxel images, up to 1000x faster than physics-based solvers, e.g., FEM, LBM, etc. (PyTorch)
+- Implemented a distributed data pipeline to generate a large-scale dataset to train a physics-informed CNN for tortuosity estimation. (Dask, Ray)
+- Implemented a convolutional autoencoder to simulate Li-ion battery discharge, 10x faster than COMSOL, to enhance automated screening of electrode microstructures. (TensorFlow, COMSOL)
+- Developed reduced order digital twins for various electrochemical systems (e.g., hydrogen fuel cells, electrolyzers) to accelerate in-silico material screening. (SciPy Stack, [OpenPNM](https://openpnm.org), [PoreSpy](https://porespy.org))
+- Led a team of 10+ developers through the software development lifecycle, enhancing code quality through rigorous code reviews and streamlining deployment processes by implementing CI/CD pipelines. Maintained and deployed the team's online resources on GitHub and AWS.
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Research Intern <time> Fall 2018 </time>
 
 <location> Object Research Systems (ORS) </location>
 
-- Implemented a Dragonfly* plugin for pore network extraction from 3D images of porous materials. (PyQt)
+- Developed a plugin for [Dragonfly](https://dragonfly.comet.tech)<sup>1</sup> to extract pore networks from 3D images of porous materials. (PyQt)
+- Learned GUI development using Qt from scratch and delivered a production-quality plugin within 2 months, leading to Dragonfly's market expansion from medical imaging to rock sciences.
+
+<!-- <hr style="height:0.5px; border:none; background-color:lightgray;" /> -->
 
 ### Research Assistant <time> 2015 – 2019 </time>
 
-<location> Department of Chemical Engineering, McGill University </location>
+<location> [Department of Chemical Engineering](https://www.mcgill.ca/chemeng), McGill University </location>
 
-- Developed a pore network model for flow batteries; uncovering how microstructure affects performance.
-- Developed a multiscale model for hierarchical nanocatalysts, elucidating structure-performance interplay.
-- Devised a novel discretization for advection in network models, up to 4x more accurate than existing methods.
-
-### Research Assistant <time> 2012 – 2015 </time>
-
-<location> Department of Chemical Engineering, Sharif University of Technology </location>
-
-- Developed a CFD model to simulate reactive flow in catalytic converters. (MATLAB, COMSOL)
-- Optimized the internal geometry of catalytic converters for maximal CO2/NOx removal.
-- Implemented a neural network surrogate model to predict pressure drop in oil and gas pipelines. (MATLAB)
+- Developed a reduced order model for HBr flow batteries; enabling 100x more througput for optimizing the microstructure while maintaining accuracy. (Python, OpenPNM)
+- Developed OpenPNM, a Python package for reduced order modeling of transport in porous media, providing up to 1000x speedup over FEM, LBM, etc. with minimal loss of accuracy.
+- Developed PoreSpy, a Python package for image processing of porous media, providing a comprehensive suite of tools for image segmentation, analysis, and visualization.
+- Designed and implemented distributed CI/CD pipelines for OpenPNM and PoreSpy, reducing testing time by 80%, leading to more frequent releases and higher code quality.
+<!-- - Developed a multiscale model for hierarchical nanocatalysts, elucidating structure-performance interplay. -->
+<!-- - Devised a novel discretization for advection in network models, up to 4x more accurate than existing methods. -->
 
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
 
-\* *Dragonfly is a software developed by ORS for scientific image processing.*
+### Research Assistant <time> 2012 – 2015 </time>
+
+<location> [Department of Chemical Engineering](https://www.che.sharif.edu/en), Sharif University of Technology </location>
+
+- Developed a multiphysics CFD model using COMSOL to simulate reactive flow in catalytic converters, exploring the interplay between cell shape and performance.
+- Utilized MATLAB LiveLink API to automate COMSOL model development, creating a fully automated workflow for optimizing CO2/NOx removal in catalytic converters.
+
+<!-- Footnotes begin -->
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
+<div class="footnote">
+  <sup>1</sup> Scientific image processing software developed by ORS (acquired by <a href="https://comet.tech">Comet</a>)
+</div>
+
+<!-- Footnotes end -->
 
 ## Skills
 
 ### Technical Skills
 
-- **Parallel/GPU Programming:** Expert in OpenMP, MPI, CUDA, Numba; proficient in Dask, Ray, CuPy for scalable data processing and model training.
-- **Image Processing & Visualization:** Advanced usage of Scikit-Image, OpenCV; proficient in data visualization with Matplotlib, Plotly, Seaborn.
-- **Data Science & Analysis:** Extensive experience with NumPy, SciPy, Pandas, Scikit-Learn; familiar with big data technologies like Apache Spark.
-- **Cloud Technologies:** Hands-on experience with SLURM, Compute Canada HPC clusters; practical knowledge of cloud services in Google Cloud and AWS environments.
-- **Programming & Software Development:** Proficient in Python, C/C++, Julia, MATLAB; experienced with full-stack development using HTML/CSS, JavaScript, Django. Strong understanding of Object-Oriented programming, design patterns, and efficient algorithms.
-- **Machine Learning & AI:** Developed models using PyTorch, TensorFlow; familiar with JAX. Experienced in building and tuning large-scale, distributed machine learning models.
+- **Parallel/GPU Programming:** Working knowledge of OpenMP, MPI, CUDA, Numba, CuPy for parallel/GPU computing; and Dask, Ray for scalable data processing and model training.
+- **Image Processing & Visualization:** Working knowledge of Scikit-Image, OpenCV. Proficient in data visualization with Matplotlib, Plotly, Seaborn, and ParaView.
+- **Data Science & Analysis:** Proficient in NumPy, SciPy, Pandas, Scikit-Learn. Familiar with databases (SQL, NoSQL) e.g., MySQL, MongoDB, and big data technologies like Apache Spark.
+- **Cloud Technologies:** Working knowledge of using and deploying on cloud services e.g., Google Cloud and AWS. Experience with SLURM scheduling in HPC clusters.
+- **Programming & Software Development:** Working knowledge of version control (Git, Perforce). Proficient in Python, C/C++, Julia, MATLAB. Experience with full-stack development using HTML/CSS/JavaScript, and frameworks e.g., Django and Flask. Good understanding of object-oriented programming, design patterns, data structures, and algorithms.
+- **Machine Learning & AI:** Working knowledge of PyTorch, JAX, TensorFlow. Experienced in building and tuning large-scale, distributed machine learning models.
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Advanced Knowledge
 
-- **Mathematical & Computational Modeling:** Proficient in scientific computing, solving differential equations using FEM, FVM, FDM. Skilled in optimization techniques and Bayesian statistics.
-- **Machine Learning Techniques:** Deep learning, convolutional neural networks, autoencoders, and physics-informed neural networks. Expert in feature engineering and hyperparameter tuning.
+- **Mathematical & Computational Modeling:** Proficient in scientific computing, solving differential equations using FEM, FVM, FDM. Working knowledge of linear, nonlinear, and stochastic optimization techniques. Familiar with Bayesian inference and probabilistic programming.
+- **Machine Learning Techniques:** Good understanding of deep learning, convolutional neural networks, autoencoders, and physics-informed neural networks. Working knowledge of feature engineering and hyperparameter optimization. Familiar with model reduction techniques e.g., PCA, UMAP, etc.
 - **Engineering & Simulation:** Deep understanding of thermodynamics, fluid mechanics, and reaction kinetics. Experienced with simulation software including AutoCAD, COMSOL Multiphysics, and Aspen HYSYS.
+
+<!-- <hr style="height:0.5px; border:none; background-color:lightgray;" /> -->
 
 ### Soft Skills
 
@@ -102,33 +129,39 @@
 
 ## Open-Source Software
 
-### [OpenPNM](https://github.com/PMEAL/OpenPNM) (420+ stars, 400+ citations)
+### [OpenPNM](https://github.com/PMEAL/OpenPNM) (400+ stars, 350+ citations)
 
 - Python library for performing pore network modeling of porous media.
-- Led development of second and third major releases.
-- Built comprehensive test suites with custom CI pipelines for automated testing and deployment.
+- Led development of the second and third major releases.
 
-### [PoreSpy](https://github.com/PMEAL/porespy) (260+ stars, 250+ citations)
+### [PoreSpy](https://github.com/PMEAL/porespy) (250+ stars, 250+ citations)
 
-- Python library for performing pore network modeling of porous media.
-- Led development of second and third major releases.
-- Built comprehensive test suites with custom CI pipelines for automated testing and deployment.
+- Python library for characterizing and analyzing 2D/3D images of porous materials.
+- Led development of the second major release.
 
-### [AutoEIS](https://github.com/AUTODIAL/AutoEIS) (20+ stars, manuscript under review at JOSS)
+### [AutoEIS](https://github.com/AUTODIAL/AutoEIS) (20+ stars, under review at JOSS)
 
 - Python library for automated analysis of electrochemical impedance spectroscopy (EIS) data.
-- Reimplemented core parts for speed (using parallelization) and memory efficiency, up to 20x faster for typical workflows.
-- Built comprehensive test suites with custom CI pipelines for automated testing and deployment.
+- Led development of the first major release.
+
+### [Tortuosity.jl](https://github.com/ma-sadeghi/Tortuosity.jl) (repo public, but not yet released)
+
+- Julia package (+ Python wrapper) for computing tortuosity from voxel images.
+<!-- - Implemented multithreading and GPU support, up to 100x faster than SOTA<sup>1</sup> competitors (e.g., [PuMA](https://github.com/nasa/puma) by NASA) and up to 5x faster than the SOTA GPU implementation ([TauFactor](https://github.com/taufactor/taufactor)) -->
 
 ### [TauNet](https://github.com/ma-sadeghi/TauNet) (repo private until paper published)
 
-- Python package for rapid estimation of tortuosity from voxel images using machine learning.
-- Demonstrated up to 1000x speedup over the SOTA physics-based solvers on various datasets.
+- Python package for rapid estimation of tortuosity from voxel images using physics-informed CNNs.
+- Demonstrated up to 1000x speedup over the SOTA<sup>1</sup> physics-based solvers on various datasets.
 
-### [Tortuosity.jl](https://github.com/ma-sadeghi/Tortuosity.jl)
+<!-- Footnotes begin -->
 
-- Developed a Julia package (+ Python wrapper) for computing tortuosity from voxel images.
-- Implemented multithreading and GPU support, up to 100x faster than SOTA competitors (e.g., [PuMA](https://github.com/nasa/puma) by NASA) and up to 5x faster than the SOTA GPU implementation ([TauFactor](https://github.com/taufactor/taufactor))
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
+<div class="footnote">
+  <sup>1</sup> State of the Art
+</div>
+
+<!-- Footnotes end -->
 
 ## Education
 
@@ -165,16 +198,28 @@
 - Niloo Misaghian: <span class="title"> Pore Network Modeling of Zinc-Air Batteries </span> (PhD, 2022)
 - Mike McKague: <span class="title"> Pore Network Modeling of Physical Adsorption in Porous Media </span> (MSc, 2020)
 
-### Sharif Computer-Aided Chemical Engineering Contest (SC<sub>3</sub>*) <time> 2012 – 2015 </time>
+### Sharif Computer-Aided Chemical Engineering Contest (SC<sub>3</sub><sup>1</sup>) <time> 2012 – 2015 </time>
 
 *Founder, President (3x)*
 
-- Led the scientific committee for designing problem sets.
+- Chaired the scientific committee responsible for designing problem sets.
 - Secured sponsorship and oversaw executive tasks.
+- Grew the competition from 15 to 300+ participants in 3 years.
+
+<!-- Footnotes begin -->
 
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
+<div class="footnote">
+  <sup>1</sup> A nationwide programming competition for chemical engineering students in Iran
+</div>
 
-\* *An ICPC-like programming competition tailored for chemical engineering students*
+<!-- Footnotes end -->
+
+## Manuscripts Under Review/Preparation
+
+- **Sadeghi, M.A.**, Ly, S., and Gostick, J.T. (2024) <span class="title">TauNet: An interpretable deep learning framework for rapid estimation of tortuosity from voxel images.</span> To be submitted to *npj Computational Materials*.
+
+- **Sadeghi, M.A.**, and Gostick, J.T. (2024) <span class="title">Estimation of tortuosity of tomograms using a GPU-accelerated transient Laplace solver.</span> To be submitted to *Computers & Geosciences*.
 
 ## Publications
 
@@ -219,12 +264,6 @@
 - **Sadeghi, M.**, Aghighi, M., Barralet, J., Gostick, J. (2017) <span class="title">Pore network modeling of transport in hierarchical porous particles: the effects of microstructure.</span> *Chemical Engineering Journal*, 330, pp.1002-1011.
 
 - **Sadeghi, M.**, Salami, H., Taghikhani, V., Robert, M.A. (2015) <span class="title">A comprehensive study on CO2 solubility in brine: Thermodynamic and neural network modeling.</span> *Fluid Phase Equilibria*, 403, pp.153-159.
-
-## Manuscripts Under Review/Preparation
-
-- **Sadeghi, M.A.**, Ly, S., and Gostick, J.T. (2023) <span class="title">TauNet: An interpretable deep learning framework for rapid estimation of tortuosity from voxel images.</span> To be submitted to *npj Computational Materials*.
-
-- **Sadeghi, M.A.**, and Gostick, J.T. (2023) <span class="title">Estimation of tortuosity of tomograms using a GPU-accelerated transient Laplace solver.</span> To be submitted to *Computers & Geosciences*.
 
 ## Conference Presentations
 
@@ -308,36 +347,6 @@
 
 ### International Travel Grant | <location> 5<sup>th</sup> EAGE International Conference on Geosciences </location> <time> 2012 </time>
 
-## Teaching Experience
-
-### Sessional Lecturer | <location> University of Waterloo </location> <time> Summer 2023 </time>
-
-- CHEE 614 Capillary and Transport Phenomena in Porous Media*
-
-### Guest Lecturer | <location> McGill University </location> <time> Fall 2018 </time>
-
-- CHEE 662 Computational Methods*
-
-### Teaching Assistant | <location> McGill University </location> <time> 2015 - 2019 </time>
-
-- CHEE 662 Computational Methods* (Fall 2017-18)
-- CHEE 641 Chemical Reaction Engineering* (Winter 2018)
-- CHEE 440 Process Modeling (Winter 2016-18)
-- CHEE 390 Computational Methods (Fall 2016)
-
-### Teaching Assistant | <location> Sharif University of Technology </location> <time> 2012 - 2015 </time>
-
-- CHEE 662 Computational Methods* (Fall 2017-18)
-- CHEE 912 Process Modeling (Winter 2014)
-- CHEE 323 Computational Methods (Winter 2012 & Fall 2014)
-- CHEE 925 Heat Transfer (Winter 2013)
-- CHEE 211 Fluid Mechanics (Fall 2013)
-- CHEE 267 Advanced Numerical Methods* (Fall 2013)
-
-<hr style="height:0.5px; border:none; background-color:lightgray;" />
-
-\* *Courses marked with an asterisk (\*) are graduate-level.*
-
 ## Professional Service
 
 ### Journal/Conference Reviewer
@@ -365,10 +374,40 @@
 
 - Served as a columnist for the Chemical Engineering Student Society weekly newsletter.
 
-<br/>
-<br/>
+## Teaching Experience
+
+### Sessional Lecturer | <location> University of Waterloo </location> <time> Summer 2023 </time>
+
+- CHEE 614 Capillary and Transport Phenomena in Porous Media*<sup>1</sup>
+
+### Guest Lecturer | <location> McGill University </location> <time> Fall 2018 </time>
+
+- CHEE 662 Computational Methods*
+
+### Teaching Assistant | <location> McGill University </location> <time> 2015 - 2019 </time>
+
+- CHEE 662 Computational Methods* (Fall 2017-18)
+- CHEE 641 Chemical Reaction Engineering* (Winter 2018)
+- CHEE 440 Process Modeling (Winter 2016-18)
+- CHEE 390 Computational Methods (Fall 2016)
+
+### Teaching Assistant | <location> Sharif University of Technology </location> <time> 2012 - 2015 </time>
+
+- CHEE 662 Computational Methods* (Fall 2017-18)
+- CHEE 912 Process Modeling (Winter 2014)
+- CHEE 323 Computational Methods (Winter 2012 & Fall 2014)
+- CHEE 925 Heat Transfer (Winter 2013)
+- CHEE 211 Fluid Mechanics (Fall 2013)
+- CHEE 267 Advanced Numerical Methods* (Fall 2013)
+
+<!-- Footnotes begin -->
+
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
-<p class="center"><em>Last updated: 2024-04-16</em></p>
+<div class="footnote">
+  <sup>1</sup> Courses marked with an asterisk (*) are graduate-level.
+</div>
+
+<!-- Footnotes end -->
 
 <!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
 
