@@ -3,15 +3,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" type="text/css" href="resume.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <span class="name">Mohammad Amin Sadeghi</span>
 
 <span class="info">
-
-[![Mail](https://simpleicons.org/icons/minutemailer.svg) amin.sadeghi@uwaterloo.ca](mailto:amin.sadeghi@uwaterloo.ca)
-[![GitHub](https://simpleicons.org/icons/github.svg) github.com/ma-sadeghi](https://github.com/ma-sadeghi)
-[![Homepage](https://www.svgrepo.com/show/526560/home.svg) ma-sadeghi.github.io](https://ma-sadeghi.github.io)
-
+  <a href="mailto:amin.sadeghi@uwaterloo.ca"><i class="fas fa-envelope"></i> amin.sadeghi@uwaterloo.ca</a> |
+  <a href="https://github.com/ma-sadeghi"><i class="fab fa-github"></i> GitHub</a> |
+  <a href="https://www.linkedin.com/in/sadeghiamin/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+  <a href="https://ma-sadeghi.github.io"><i class="fas fa-home"></i> Homepage</a>
 </span>
 
 ## Relevant Experience
