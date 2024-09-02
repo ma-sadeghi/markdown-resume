@@ -17,12 +17,12 @@
 ## Summary
 
 - PhD in Chemical Engineering with a focus on modeling, simulation, and data analytics.
-- 8+ years of experience in modeling & simulation, machine learning, and software development.
+- 10+ years of experience in modeling & simulation, machine learning, and software development.
 - Strong project management skills with track record of leading and contributing to cross-functional teams.
 
 ## Relevant Experience
 
-### Research Scientist <time> 2024 – Present </time>
+### AI Computational Developer <time> 2024 – Present </time>
 
 <location> Computational Materials Engineering, [CanmetMATERIALS](https://natural-resources.canada.ca/research-centres-and-labs/canmetmaterials/22096) – Natural Resources Canada </location>
 
@@ -97,21 +97,28 @@
 ### Technical Skills
 
 - **Parallel/GPU Programming:** Working knowledge of OpenMP, MPI, CUDA, Numba, CuPy for parallel/GPU computing; and Dask, Ray for scalable data processing and model training.
+
 - **Image Processing & Visualization:** Working knowledge of Scikit-Image, OpenCV. Proficient in data visualization with Matplotlib, Plotly, Seaborn, and ParaView.
+
 - **Data Science & Analysis:** Proficient in NumPy, SciPy, Pandas, Scikit-Learn. Familiar with databases (SQL, NoSQL) e.g., MySQL, MongoDB, and big data technologies like Apache Spark.
+
 - **Cloud Technologies:** Working knowledge of using and deploying on cloud services e.g., Google Cloud and AWS. Experience with SLURM scheduling in HPC clusters.
-- **Programming & Software Development:** Working knowledge of version control (Git, Perforce). Proficient in Python, C/C++, Julia, MATLAB. Experience with full-stack development using HTML/CSS/JavaScript, and frameworks e.g., Django and Flask. Good understanding of object-oriented programming, design patterns, data structures, and algorithms.
+
+- **Programming & Software Development:** Working knowledge of version control (Git, Perforce), debugging, and testing. Proficient in Python, C/C++, Julia, MATLAB. Experience with full-stack development using HTML/CSS/JavaScript, and frameworks e.g., Django and Flask. Good understanding of object-oriented programming, design patterns, data structures, and algorithms. Working knowledge of software testing, CI/CD pipelines, and containerization (Docker, Kubernetes).
+
 - **Machine Learning & AI:** Working knowledge of PyTorch, JAX, TensorFlow. Experienced in building and tuning large-scale, distributed machine learning models.
 
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Advanced Knowledge
 
-- **Mathematical & Computational Modeling:** Proficient in scientific computing, solving differential equations using FEM, FVM, FDM. Working knowledge of linear, nonlinear, and stochastic optimization techniques. Familiar with Bayesian inference and probabilistic programming.
-- **Machine Learning Techniques:** Good understanding of deep learning, convolutional neural networks, autoencoders, and physics-informed neural networks. Working knowledge of feature engineering and hyperparameter optimization. Familiar with model reduction techniques e.g., PCA, UMAP, etc.
-- **Engineering & Simulation:** Deep understanding of thermodynamics, fluid mechanics, and reaction kinetics. Experienced with simulation software including AutoCAD, COMSOL Multiphysics, and Aspen HYSYS.
+- **Mathematical & Computational Modeling:** Proficient in scientific computing, solving differential equations using FEM, FVM, FDM. Familiar with the Lattice Boltzmann method (LBM). Working knowledge of linear, nonlinear, and stochastic optimization techniques. Working knowledge of Bayesian inference and probabilistic programming.
 
-<!-- <hr style="height:0.5px; border:none; background-color:lightgray;" /> -->
+- **Machine Learning Techniques:** Working knowledge of supervised and unsupervised learning. Working knowledge of deep learning methods, e.g., convolutional and recurrent neural networks. Familiar with reinforcement learning. Working knowledge of data cleaning, feature engineering, and working with large datasets. Working knowledge of model reduction techniques e.g., PCA, UMAP, etc. Working knowledge of physics-informed machine learning, e.g,. physics-informed neural networks, and neural operators.
+
+- **Engineering & Simulation:** Deep understanding of thermodynamics, fluid mechanics, transport phenomena, and reaction kinetics. Working knowledge of technical drawing and simulation software, e.g., COMSOL Multiphysics, AutoCAD, and Aspen HYSYS.
+
+<hr style="height:0.5px; border:none; background-color:lightgray;" />
 
 ### Soft Skills
 
@@ -144,7 +151,7 @@
 - Python library for automated analysis of electrochemical impedance spectroscopy (EIS) data.
 - Led development of the first major release.
 
-### [Tortuosity.jl](https://github.com/ma-sadeghi/Tortuosity.jl) (repo public, but not yet released)
+### [Tortuosity.jl](https://github.com/ma-sadeghi/Tortuosity.jl) 
 
 - Julia package (+ Python wrapper) for computing tortuosity from voxel images.
 <!-- - Implemented multithreading and GPU support, up to 100x faster than SOTA<sup>1</sup> competitors (e.g., [PuMA](https://github.com/nasa/puma) by NASA) and up to 5x faster than the SOTA GPU implementation ([TauFactor](https://github.com/taufactor/taufactor)) -->
@@ -170,12 +177,12 @@
 - Ph.D. in Chemical Engineering
 - Thesis: Role of electrode microstructure on battery performance using computational modeling
 
-### Sharif University of Technology | <location> Tehran, Iran </location> <time> 2015 – 2017 </time>
+### Sharif University of Technology | <location> Tehran, Iran </location> <time> 2012 – 2015 </time>
 
 - M.S. in Chemical Engineering
 - Thesis: CFD-aided modeling and shape optimization of CO2/NOx catalytic converters
 
-### Sharif University of Technology | <location> Tehran, Iran </location> <time> 2012 – 2015 </time>
+### Sharif University of Technology | <location> Tehran, Iran </location> <time> 2008 – 2012 </time>
 
 - B.S. in Chemical Engineering
 - Graduating Dean’s Honors List
@@ -221,7 +228,7 @@
 
 - **Sadeghi, M.A.**, and Gostick, J.T. (2024) <span class="title">Estimation of tortuosity of tomograms using a GPU-accelerated transient Laplace solver.</span> To be submitted to *Computers & Geosciences*.
 
-## Publications
+## Peer-Reviewed Publications
 
 - Ly, S., **Sadeghi, M.A.**, Misaghian, N., Fathiannasab, H., and Gostick, J. (2024) <span class="title">Rapid prediction of particle-scale state-of-lithiation in Li-ion battery microstructures using convolutional neural networks.</span> *Applied Energy*, 360, p.122803.
 
@@ -347,11 +354,15 @@
 
 ### International Travel Grant | <location> 5<sup>th</sup> EAGE International Conference on Geosciences </location> <time> 2012 </time>
 
-## Professional Service
+## Community Service
+
+### Coding Club Mentor | <location> Independent </location> <time> 2023 - now </time>
+
+- Led a group of graduate students, postdocs, and research scientists in weekly coding sessions to teach best practices in software development and data analysis.
 
 ### Journal/Conference Reviewer
 
-- Reviewed submissions for the 5<sup>th</sup> Annual Research Software Engineers Conference (SeptembRSE) <time> 2021 </time>
+<!-- - Reviewed submissions for the 5<sup>th</sup> Annual Research Software Engineers Conference (SeptembRSE) <time> 2021 </time> -->
 - Peer reviewed articles for prominent journals including *Angewandte Chemie, Journal of Power Sources, Advances in Water Resources, Transport in Porous Media, Journal of Petroleum Science and Engineering, The Journal of Open Source Software* <time> 2019 - now </time>
 
 ### Student Society Member | <location> McGill University </location> <time> 2018 - 2019 </time>
