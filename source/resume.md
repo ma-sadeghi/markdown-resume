@@ -8,7 +8,7 @@
 <span class="name">Mohammad Amin Sadeghi</span>
 
 <span class="info">
-  <a href="mailto:amin.sadeghi@uwaterloo.ca"><i class="fas fa-envelope"></i> amin.sadeghi@uwaterloo.ca</a> |
+  <a href="mailto:msadeghi@carbonengineering.com"><i class="fas fa-envelope"></i> msadeghi@carbonengineering.com</a> |
   <a href="https://github.com/ma-sadeghi"><i class="fab fa-github"></i> GitHub</a> |
   <a href="https://www.linkedin.com/in/sadeghiamin/"><i class="fab fa-linkedin"></i> LinkedIn</a> |
   <a href="https://ma-sadeghi.github.io"><i class="fas fa-home"></i> Homepage</a>
@@ -16,13 +16,20 @@
 
 ## Summary
 
-- PhD in Chemical Engineering with a focus on modeling, simulation, and data analytics.
-- 10+ years of experience in modeling & simulation, machine learning, and software development.
+- PhD in Chemical Engineering with a focus on modeling and simulation, and data-driven methods.
+- 10+ years of experience in modeling & simulation, scientific machine learning, and software development.
 - Strong project management skills with track record of leading and contributing to cross-functional teams.
 
 ## Relevant Experience
 
-### AI Computational Developer <time> 2024 – Present </time>
+### Senior Machine Learning Engineer <time> 2024 – Present </time>
+
+<location> [Carbon Engineering](https://carbonengineering.com) </location>
+
+- Leading the development of a software platform for rapid design and optimization of the company's new technology for electrochemical CO<sub>2</sub> capture.
+- Leading Carbon Engineering's new initiative on ML-aided CFD for accelerating the optimization of the company's air contactor design.
+
+### Machine Learning Engineer <time> 2024 </time>
 
 <location> Computational Materials Engineering, [CanmetMATERIALS](https://natural-resources.canada.ca/research-centres-and-labs/canmetmaterials/22096) – Natural Resources Canada </location>
 
@@ -32,7 +39,7 @@
 
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
 
-### Postdoctoral Fellow <time> 2023 – 2024 </time>
+### Research Associate <time> 2023 </time>
 
 <location> [Department of Materials Science and Engineering](https://mse.utoronto.ca), University of Toronto </location>
 
@@ -42,7 +49,7 @@
 
 <hr style="height:0.5px; border:none; background-color:lightgray;" />
 
-### Postdoctoral Fellow <time> 2019 – 2023 </time>
+### Research Associate <time> 2019 – 2023 </time>
 
 <location> [Department of Chemical Engineering](https://uwaterloo.ca/chemical-engineering), University of Waterloo </location>
 
