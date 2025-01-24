@@ -274,7 +274,7 @@
 
 ## Conference Presentations
 
-- McKague, M.G., **Sadeghi, M.A.** and Gostick, J., May. (2024) <span class="title">Pore network modelling of a lithium-ion battery cathode as a tool for microstructure optimization.</span> In 245th ECS Meeting (May 26-30, 2024).
+- McKague, M.G., **Sadeghi, M.A.** and Gostick, J. (2024). <span class="title">Pore network modelling of a lithium ion battery cathode as a tool for microstructure optimization</span>. In Electrochemical Society Meeting Abstracts 245 (No. 5, pp. 730-730). The Electrochemical Society, Inc..
 
 - van der Heijden, M., **Sadeghi, M.A.**, Gostick, J., Forner-Cuenca, A. (2023) <span class="title">Starting from the bottom: Coupling a genetic algorithm and a network model for porous electrode optimization.</span> 15th Annual Interpore Meeting, Edinburgh, UK.
 
